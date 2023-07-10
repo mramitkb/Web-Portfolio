@@ -102,22 +102,42 @@ nav a {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
-main{
-    max-width: 1155px;
-    margin: 0 auto;
+main {
+  max-width: 1155px;
+  margin: 0 auto;
 }
-.about-container{
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.info-title {
+  text-align: center;
+  color: #757575;
+  font-weight: 400;
+}
+.info-description {
+  font-weight: bold;
+}
+#what {
+  padding: 0px 130px;
+}
+.skills-container{
     display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
+    gap: 25px;
+    padding-top: 30px;
 }
-.info-title{
-    text-align: center;
-    color: #757575;
-    font-weight: 400;
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(26, 23, 23, 0.06);
 }
-.info-description{
-    font-weight: bold;
+.skill-title{
+    padding-top: 20px;
+}
+.skill-description{
+    padding-top: 20px;
 }
